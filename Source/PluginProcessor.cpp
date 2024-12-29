@@ -132,7 +132,6 @@ void SawnthesizerAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer,
     setParameters();
 
     synth.renderNextBlock(buffer, midiMessages, 0, buffer.getNumSamples());
-    juce::dsp::AudioBlock<float> block{ buffer };
 }
 //==============================================================================
 
@@ -158,6 +157,7 @@ juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
 {
     return new SawnthesizerAudioProcessor();
 }
+//==============================================================================
 
 int SawnthesizerAudioProcessor::getCurrentMidiNoteNumber() const
 {

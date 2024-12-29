@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="iTzsSp" name="Sawnthesizer" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginFormats="buildStandalone,buildVST3"
-              pluginCharacteristicsValue="pluginEditorRequiresKeys,pluginIsSynth,pluginWantsMidiIn">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginFormats="buildAAX,buildAU,buildAUv3,buildLV2,buildStandalone,buildVST3"
+              pluginCharacteristicsValue="pluginEditorRequiresKeys,pluginIsSynth,pluginWantsMidiIn"
+              companyName="Earth Mover DSP" companyWebsite="www.EarthMoverDSP.com"
+              pluginManufacturerCode="EDSP" pluginCode="SWSZ" lv2Uri="http://earthmoverdsp.com/plugins/sawnthesizer">
   <MAINGROUP id="aEx8YM" name="Sawnthesizer">
     <GROUP id="{27499C90-D1C0-00CF-2438-B205751A8826}" name="Source">
       <FILE id="ub6EHy" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
